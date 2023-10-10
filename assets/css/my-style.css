@@ -3,3 +3,8 @@ header{
     background-size: 100%;
     background-position: center;
 }
+.part4{
+    background-image: url(../../images/bg.png);
+    background-size: cover;
+    background-position: top;
+}
