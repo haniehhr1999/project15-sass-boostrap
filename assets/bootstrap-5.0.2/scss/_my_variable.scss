@@ -1,0 +1,19 @@
+$white:    #fff;
+$toosi: #292d33 ;
+$black:    #000;
+$yellow:  #ffca01;
+
+$colors: (
+  "yellow":     $yellow,
+  "white":      $white,
+);
+
+$primary:       $yellow;
+$secondary:      $toosi;
+
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+);
