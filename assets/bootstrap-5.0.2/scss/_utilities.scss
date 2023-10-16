@@ -168,8 +168,10 @@ $utilities: map-merge(
       class: h,
       values: (
         25: 25%,
+        30: 30%, // by me
         50: 50%,
         75: 75%,
+        90: 90%, // by me
         100: 100%,
         auto: auto
       )
@@ -386,19 +388,19 @@ $utilities: map-merge(
     "padding": (
       responsive: true,
       property: padding,
-      class: p,
+      class: p, 
       values: $spacers
     ),
     "padding-x": (
       responsive: true,
       property: padding-right padding-left,
-      class: px,
+      class: px, 
       values: $spacers
     ),
     "padding-y": (
       responsive: true,
       property: padding-top padding-bottom,
-      class: py,
+      class: py, 
       values: $spacers
     ),
     "padding-top": (
@@ -502,7 +504,7 @@ $utilities: map-merge(
     // scss-docs-start utils-color
     "color": (
       property: color,
-      class: text,
+      class: text, 
       values: map-merge(
         $theme-colors,
         (
